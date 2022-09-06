@@ -1,0 +1,17 @@
+body{
+    display: inline-flex;
+    flex-direction: row;
+}
+#conteudo1 {
+    margin-right: 50px;
+}
+#conteudo2 {
+    height: 250px; !important
+}
+.espaco {
+    width: 360px;
+    height: 500px;
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 40px;
+}
