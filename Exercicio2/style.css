@@ -1,0 +1,39 @@
+body{
+    display: inline-flex;
+    flex-direction: row;
+}
+#conteudo1 {
+    margin-right: 50px;
+}
+.espaco {
+    width: 380px;
+    height: 500px;
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1em 0 0.4em #000, 3px 3px #0720;
+}
+#escondido5 {
+    display: block;
+}
+.escondido {
+    display: none;
+}
+#allbotoes{
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+button {
+    width: 27px;
+    justify-content: center;
+}
+.botao-maior{
+    width: 70px;
+    height: 21px;
+}
+#botoes {
+    margin-right: 4px;
+}
+#limpar {
+    position: relative;
+}

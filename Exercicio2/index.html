@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA DAS NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="espaco" id="conteudo1">
+        <h1>Digite os 5 números abaixo:</h1>
+        <div id="allbotoes">
+            <button class="botao-maior" id="limpar" onClick="window.location.reload()">Limpar</button> 
+            <div id="botoes">
+                <button onclick="botao(10)">10</button>
+                <button onclick="botao(9)">9</button>
+                <button onclick="botao(8)">8</button>
+                <button onclick="botao(7)">7</button>
+                <button onclick="botao(6)">6</button>
+                <button onclick="botao(5)">5</button>
+                <button onclick="botao(4)">4</button>
+                <button onclick="botao(3)">3</button>
+                <button onclick="botao(2)">2</button>
+                <button onclick="botao(1)">1</button>
+            </div><br><br>
+        </div>
+        <div id="campo-numeros-novos"></div>
+        <div id="escondido5">
+            <input id="campo-numero" type="text" placeholder="digite o primeiro numero">
+            <button class="botao-maior" onclick="adicionarNumero(document.getElementById('campo-numero'))" >Enviar</button>
+        </div>
+    </div>
+    <div class="espaco" id="conteudo2">
+        <h1>Calcular Quadrado:</h1><br>
+        <div id="inserir-resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
