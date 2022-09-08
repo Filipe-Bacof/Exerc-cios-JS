@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIOR DOS 5 VALORES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="espaco" id="conteudo">
+        <h1>Digite os valores abaixo:</h1>
+        <p>(devem ser separados por vírgula!)</p>
+        <input id="stringNumeros" type="text" placeholder="digite os 5 valores">
+        <button onclick="verificarMaior(document.getElementById('stringNumeros'))" >Calcular Maior</button>
+        <button onClick="window.location.reload()">Limpar</button>
+        <p>assim que calculado vai aparecer abaixo</p>
+        <div id="inserir-media"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
