@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA DAS NOTAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="espaco" id="conteudo1">
+        <h1>Digite as idades abaixo:</h1>
+        <button onclick="botao(18)">18</button>
+        <button onclick="botao(14)">14</button>
+        <button onclick="botao(33)">33</button> <br><br>
+        <input id="campo-idade" type="text" placeholder="digite a idade">
+        <button onclick="adicionarIdade(document.getElementById('campo-idade'))" >Enviar</button>
+        <button onClick="window.location.reload()">Limpar</button>
+        <p>As idades aparecerão abaixo:</p>
+        <div id="campo-idades-novas"></div>
+    </div>
+    <div class="espaco" id="conteudo2">
+        <h1>Ver quantos são maiores: </h1>
+        <button onclick="calcular()">Calcular</button><br><br>
+        <div id="inserir-resultado"></div>
+        <div id="inserir-lista"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
