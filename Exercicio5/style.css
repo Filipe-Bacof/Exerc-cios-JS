@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    color: rgb(150, 20, 46);
+    height: 100px;
+    padding: 25px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    padding: 25px;
+    background-color: steelblue;
+    width: 270px;
+    height: auto;
+}
+
+.altura {
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.selecoes {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.selecao {
+    padding-right: 3%;
+    margin-left: 1%;
+}
